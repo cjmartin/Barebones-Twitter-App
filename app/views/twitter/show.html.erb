@@ -1,0 +1,7 @@
+<% @page_title = "#{@user.name} (#{@user.screen_name})" -%>
+<p>
+  <strong>Remaining API queries this hour:</strong> <%= @api_limit.remaining_hits %>
+</p>
+<p>
+  <strong>Twitter ID:</strong> <%=h @user.id  %>
+</p>

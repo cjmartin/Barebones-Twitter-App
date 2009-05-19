@@ -1,0 +1,4 @@
+<%= @api_limit.remaining_hits %>
+<%- for tweet in @tweets -%>
+  <%= render :partial => 'twitter/tweet', :object => tweet %>
+<%- end -%>

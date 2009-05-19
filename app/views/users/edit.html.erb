@@ -1,0 +1,23 @@
+<h1>Editing user</h1>
+
+<% form_for(@user) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :twitter_id %><br />
+    <%= f.text_field :twitter_id %>
+  </p>
+  <p>
+    <%= f.label :twitter_token %><br />
+    <%= f.text_field :twitter_token %>
+  </p>
+  <p>
+    <%= f.label :twitter_secret %><br />
+    <%= f.text_field :twitter_secret %>
+  </p>
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', account_path %>

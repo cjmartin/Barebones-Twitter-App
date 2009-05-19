@@ -1,0 +1,14 @@
+development:
+  token: consumer token from twitter
+  secret: consumer secret from twitter
+  site: http://twitter.com
+
+test:
+  token: consumer token from twitter
+  secret: consumer secret from twitter
+  site: http://twitter.com
+
+production:
+  token: consumer token from twitter
+  secret: consumer secret from twitter
+  site: http://twitter.com
